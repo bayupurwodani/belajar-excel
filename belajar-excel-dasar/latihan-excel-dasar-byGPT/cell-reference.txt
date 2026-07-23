@@ -1,0 +1,11 @@
+- Apa itu Cell Reference?
+Cell Reference adalah alamat dari sebuah sel didalam excel.
+
+- Apa itu Relative Reference?
+Secara default, referensi di Excel adalah relative, artinya saat rumus diisi (fill) ke baris/kolom lain, referensinya akan menyesuaikan secara otomatis sesuai posisi baru. ((A1) Baris dan Kolom dapat Berubah)
+
+- Apa itu Absolute Reference ($)?
+Absolute reference adalah cara menulis alamat sel dengan tanda dollar ($) di depan huruf kolom dan angka baris, contohnya $A$1. Tanda dollar ($) ini berfungsi sebagai pengunci bagian yang ada di sebelah kanannya, ketika rumus di salin (copy) ke sel manapun, alamt nya akan tetap menunjukkan A1. (($A$1) Baris dan Kolom Tidak dapat Berubah)
+
+- Apa itu Mixed Reference?
+Referensi campuran di excel adalah jenis referensi sel yang berbeda dengan dua lainnya absolut dan relatif, dalam referensi sel campuran kita hanya mengacu pada kolom sel atau baris sel, misalnya di sel A1 jika kita mau merujuk hanya ke kolom A referensi campurannya adalah $ A1, untuk melakukan ini kita perlu menekan F4 pada sel dua kali. (($A1) Baris Berubah), ((A$1) Kolom Berubah)
